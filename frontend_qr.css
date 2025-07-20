@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(79, 167, 202); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: "Outfit", sans-serif;
+}
+.carte {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow:0 10px 20px ;
+    scrollbar-shadow-color: gray;
+}
+.card_container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.qrcode {
+    width: 280px;
+    margin: 10px; 
+}
